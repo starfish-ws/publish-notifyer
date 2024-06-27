@@ -21,9 +21,7 @@ async function handler(event, call_endpoint) {
         headers: {
             'Content-Type': 'application/json',
         },
-        data: {
-            payload
-        }
+        data: payload
     });
 }
 

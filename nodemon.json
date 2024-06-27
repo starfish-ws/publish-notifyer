@@ -1,0 +1,15 @@
+{
+  "verbose": true,
+  "ignore": [
+    "node_modules"
+  ],
+  "watch": [
+    "index.js",
+    "*.js"
+  ],
+  "ext": "js",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "exec": "node index.js"
+}
